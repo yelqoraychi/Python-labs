@@ -1,0 +1,11 @@
+import numpy as np
+tableau=np.array([1, 2, 3], dtype=np.float32)
+print(tableau.nbytes)
+A=tableau.astype(np.int32)
+B=np.eye(4)
+print(A.nbytes)
+print(B)
+C= np.full((2, 2), 7)
+print(C)
+D=np.arange(12).reshape((4, 3)) 
+print(D)
