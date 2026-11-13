@@ -1,54 +1,63 @@
-# LAB-10
-Etape:1 <br>
-Préparation de l'environnement <br>
-<img width="645" height="322" alt="LAB10 E 1" src="https://github.com/user-attachments/assets/c76848d6-4145-4c66-9463-7d1b6d477e2b" /><br>
-La définition de deux tablaux un à 1D et l'autre à 2D,qui nous serons l'utiliser au cours de ce lab:<br>
-<img width="362" height="334" alt="LAB 10 E1 B" src="https://github.com/user-attachments/assets/6f2d82e7-2365-4744-8e22-6a1cf5e66d1a" /><br>
-Etape:2 <br>
-Indexer un tableau 1D:<br>
-Réclamer le premier élement par indice 0 , et troisiéme élement par indice 2 ... <br>
-<img width="386" height="329" alt="LAB 10 E2 A" src="https://github.com/user-attachments/assets/67dfaae3-85df-484b-8a6d-677bd9996562" /><br>
-Indexer une matrice 2D: <br>
-Nous utilisons M[i,j] pour accéder aux élement de ligne i et le colomne j :<br>
-<img width="428" height="342" alt="LAB 10 E 2 B" src="https://github.com/user-attachments/assets/4b206471-ff23-4546-812d-c620ee5aa2c0" /><br>
-Etape:3 <br>
-Slicing d'un tableau 1D:<br>
-<img width="435" height="338" alt="LAB 10 E3 A" src="https://github.com/user-attachments/assets/6007a137-2d0c-4d4f-820e-526fb1b3da4b" /><br>
-Etape:4 <br>
-Slicing d'un tableau 2D:<br>
-<img width="566" height="367" alt="LAB 10 E 4" src="https://github.com/user-attachments/assets/24e65994-d814-43e7-aeab-f7e21b935363" /><br>
-Etape:5 <br>
-Slicing avancée <br>
-<img width="451" height="340" alt="LAB 10 E 5" src="https://github.com/user-attachments/assets/282bd0de-84a4-4b67-9375-5b796e0ecbe0" /><br>
-Etape:6 <br>
-Vue accéde au méme donné en mémoire<br>
-Toute modification en vue affecte au tableau originale <br>
-<img width="513" height="362" alt="LAB 10 E6" src="https://github.com/user-attachments/assets/053bcf34-16e7-42e6-9278-193731e3ba49" /><br>
-Etape:7 <br>
-Sécuriser par .copy()<br>
-On peut modifier la copie sans modifier l'originale<br>
-<img width="518" height="398" alt="LAB 10 E 7" src="https://github.com/user-attachments/assets/b38d4a98-1737-49a9-85a5-967ba2dcee45" /><br>
-Etape:8 <br>
-<img width="448" height="375" alt="LAB 10 E 8" src="https://github.com/user-attachments/assets/631e99a9-c070-4a41-bd70-5eeae177a69d" /><br>
+# LAB-10 – Python et NumPy
 
+## Étape 1 : Préparation de l'environnement
 
+Préparation de l'environnement de travail.
 
+<img width="645" alt="LAB10 E 1" src="images/LAB10%20E%201.png">
 
+Définition de deux tableaux : un tableau 1D et un tableau 2D, qui seront utilisés au cours de ce laboratoire.
 
+<img width="362" alt="LAB 10 E1 B" src="images/LAB%2010%20E1%20B.png">
 
+## Étape 2 : Indexation des tableaux
 
+### Indexation d'un tableau 1D
 
+Accès aux éléments d'un tableau à l'aide de leurs indices : le premier élément par l'indice `0`, le troisième par l'indice `2`, etc.
 
+<img width="386" alt="LAB 10 E2 A" src="images/LAB%2010%20E2%20A.png">
 
+### Indexation d'une matrice 2D
 
+Nous utilisons `M[i, j]` pour accéder à l'élément situé à la ligne `i` et à la colonne `j`.
 
+<img width="428" alt="LAB 10 E2 B" src="images/LAB%2010%20E%202%20B.png">
 
+## Étape 3 : Slicing d'un tableau 1D
 
+Extraction d'une partie d'un tableau 1D à l'aide du slicing.
 
+<img width="435" alt="LAB 10 E3 A" src="images/LAB%2010%20E3%20A.png">
 
+## Étape 4 : Slicing d'un tableau 2D
 
+Extraction de certaines lignes et colonnes d'une matrice 2D à l'aide du slicing.
 
+<img width="566" alt="LAB 10 E 4" src="images/LAB%2010%20E%204.png">
 
+## Étape 5 : Slicing avancé
 
+Exploration des techniques de slicing avancé sur les tableaux NumPy.
 
+<img width="451" alt="LAB 10 E 5" src="images/LAB%2010%20E%205.png">
 
+## Étape 6 : Vue d'un tableau (View)
+
+Une vue permet d'accéder aux mêmes données en mémoire que le tableau original.
+
+Toute modification effectuée sur la vue affecte également le tableau original.
+
+<img width="513" alt="LAB 10 E6" src="images/LAB%2010%20E6.png">
+
+## Étape 7 : Sécuriser les données avec `.copy()`
+
+La méthode `.copy()` permet de créer une copie indépendante du tableau original.
+
+On peut ainsi modifier la copie sans modifier le tableau original.
+
+<img width="518" alt="LAB 10 E 7" src="images/LAB%2010%20E%207.png">
+
+## Étape 8
+
+<img width="448" alt="LAB 10 E 8" src="images/LAB%2010%20E%208.png">
