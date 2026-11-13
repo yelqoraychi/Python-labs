@@ -1,28 +1,43 @@
-# lab11
-Etape:1 <br>
-Préparation de l'environnement et implémentation des deux tableaux A et B:<br>
-<img width="455" height="147" alt="LAB 11 E1" src="https://github.com/user-attachments/assets/3ba52807-b096-463b-badd-3db40a8c3804" /><br>
-Etape:2 <br>
-Opération élementaires: Addition,multiplication et puissance<br>
-<img width="534" height="404" alt="LAB 11 E2" src="https://github.com/user-attachments/assets/518f11bb-fdf1-490f-99d4-c3601494ab48" /><br>
-Etape:3<br>
-Fonctions universelles:comme sinus,logarithme ,exp et sqrt ...<br>
-<img width="488" height="389" alt="LAB 11 E 3" src="https://github.com/user-attachments/assets/46674c39-c078-4c69-aa9b-c163ceb1d04c" />
-<br>
-Etape:4<br>
-On utilise un masque pour filtrer les donnés :<br>
-<img width="529" height="349" alt="LAB 11 E4" src="https://github.com/user-attachments/assets/f3df32b4-9625-41b8-89db-bd3e6d422a34" /><br>
-Etape:5<br>
- 1.Ajout d'un scalaire à un matrice le scalaire s'ajoute à chaque élément du matrice<br>
- <img width="355" height="281" alt="LAB 11 E 5 A" src="https://github.com/user-attachments/assets/05517eb5-1e11-4911-ac61-e33337f754a2" /><br>
-  2.Addition d'une vecteur ligne ou colomne à une matrice :<br>
-  
-<img width="400" height="394" alt="LAB 11 E5 B" src="https://github.com/user-attachments/assets/90e9bad1-d3fb-461e-bf3c-81bcfe8f1eb5" /><br>
-Etape:6<br>
-Applications:<br>
-<img width="443" height="319" alt="LAB 11 E6" src="https://github.com/user-attachments/assets/0c9accbd-d280-4850-ab04-c1c6c0e52457" />
+# LAB-11 – Python et NumPy
 
+## Étape 1 : Préparation de l'environnement
 
+Préparation de l'environnement de travail et implémentation des deux tableaux `A` et `B`.
 
+<img width="698" alt="LAB 11 E1" src="images/LAB%2011%20E1.png">
 
+## Étape 2 : Opérations élémentaires
 
+Réalisation des opérations élémentaires sur les tableaux : addition, multiplication et puissance.
+
+<img width="698" alt="LAB 11 E2" src="images/LAB%2011%20E2.png">
+
+## Étape 3 : Fonctions universelles (Universal Functions)
+
+Utilisation des fonctions universelles de NumPy, comme `sin()`, `log()`, `exp()` et `sqrt()`.
+
+<img width="698" alt="LAB 11 E3" src="images/LAB%2011%20E%203.png">
+
+## Étape 4 : Masquage et filtrage des données
+
+Utilisation d'un masque pour filtrer les données du tableau.
+
+<img width="698" alt="LAB 11 E4" src="images/LAB%2011%20E4.png">
+
+## Étape 5 : Broadcasting
+
+### 1. Ajout d'un scalaire à une matrice
+
+Le scalaire est ajouté à chaque élément de la matrice.
+
+<img width="698" alt="LAB 11 E5 A" src="images/LAB%2011%20E%205%20A.png">
+
+### 2. Addition d'un vecteur ligne ou colonne à une matrice
+
+<img width="698" alt="LAB 11 E5 B" src="images/LAB%2011%20E5%20B.png">
+
+## Étape 6 : Applications
+
+Mise en pratique des notions étudiées au cours de ce laboratoire.
+
+<img width="698" alt="LAB 11 E6" src="images/LAB%2011%20E6.png">
