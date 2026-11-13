@@ -1,28 +1,53 @@
-# LAB12
-Etape:1<br>
-Initialisation de l'environnement et la défintion du tableau de travail:<br>
-<img width="381" height="428" alt="LAB 12 E 1" src="https://github.com/user-attachments/assets/3a9b8118-4fab-4635-8add-e6366b94e770" /><br>
-Etape:2<br>
-Application des fonctions Numpy <br>
-<img width="461" height="412" alt="LAB 12 E 2" src="https://github.com/user-attachments/assets/3cde82cc-da8f-481c-abec-b5b69930efba" /><br>
-Etape:3<br>
-Les résultats par rapport à l'épreuve(axis=0)<br>
-<img width="442" height="325" alt="LAB 12 E3 A" src="https://github.com/user-attachments/assets/feff4442-c364-4386-829b-98a66da06758" />
-<br>
-Les résultats par rapport à l'étudiant(axis=1)<br>
-<img width="425" height="350" alt="LAB 12 E3 B" src="https://github.com/user-attachments/assets/f01f23cd-4847-4e40-9f68-9bef4c82e4eb" />
-<br>
-Etape:4<br>
-L'analyse du meilleur étudiane et l'epreuve le plus difficile:<br>
-<img width="697" height="365" alt="LAB 12 E4" src="https://github.com/user-attachments/assets/a2fe6c7f-ad6f-429e-b1db-6bd3e869ad07" />
-<br>
-Etape:5<br>
-Utilisation d'un masque booleene pour extraire les étudiants à moyenne >=12 et aussi les notes>=15 au E2<br>
-<img width="476" height="375" alt="LAB 12 E 5" src="https://github.com/user-attachments/assets/93b8a980-2329-4cc0-9bcd-1abc864233e6" /><br>
-Etape:6<br>
-Construction de tableau finale à l'aide de hstack et vstack:<br>
-<img width="458" height="371" alt="LAB 12 E6" src="https://github.com/user-attachments/assets/e30f7f28-5fd2-4cbc-aa0d-e247bdabab9c" />
-<br>
-Etape:7<br>
-Un rapport:<br>
-<img width="467" height="340" alt="LAB 12 E7" src="https://github.com/user-attachments/assets/9bb1ad18-43ac-48c1-9e81-26bf5f1777aa" />
+# LAB-12 – Python et NumPy
+
+## Étape 1 : Initialisation de l'environnement
+
+Initialisation de l'environnement de travail et définition du tableau utilisé au cours de ce laboratoire.
+
+<img width="698" alt="LAB 12 E1" src="images/LAB%2012%20E%201.png">
+
+## Étape 2 : Application des fonctions NumPy
+
+Application de différentes fonctions disponibles dans la bibliothèque NumPy.
+
+<img width="698" alt="LAB 12 E2" src="images/LAB%2012%20E%202.png">
+
+## Étape 3 : Analyse des résultats
+
+### Résultats par épreuve (`axis=0`)
+
+Calcul et analyse des résultats pour chaque épreuve en utilisant `axis=0`.
+
+<img width="698" alt="LAB 12 E3 A" src="images/LAB%2012%20E3%20A.png">
+
+### Résultats par étudiant (`axis=1`)
+
+Calcul et analyse des résultats pour chaque étudiant en utilisant `axis=1`.
+
+<img width="698" alt="LAB 12 E3 B" src="images/LAB%2012%20E3%20B.png">
+
+## Étape 4 : Analyse des résultats
+
+Identification du meilleur étudiant et de l'épreuve la plus difficile.
+
+<img width="698" alt="LAB 12 E4" src="images/LAB%2012%20E4.png">
+
+## Étape 5 : Utilisation d'un masque booléen
+
+Utilisation d'un masque booléen pour extraire :
+- Les étudiants ayant une moyenne supérieure ou égale à `12`.
+- Les notes supérieures ou égales à `15` dans l'épreuve `E2`.
+
+<img width="698" alt="LAB 12 E5" src="images/LAB%2012%20E%205.png">
+
+## Étape 6 : Construction du tableau final
+
+Construction du tableau final à l'aide des fonctions `hstack()` et `vstack()`.
+
+<img width="698" alt="LAB 12 E6" src="images/LAB%2012%20E6.png">
+
+## Étape 7 : Génération d'un rapport
+
+Génération d'un rapport récapitulatif à partir des résultats obtenus.
+
+<img width="698" alt="LAB 12 E7" src="images/LAB%2012%20E7.png">
